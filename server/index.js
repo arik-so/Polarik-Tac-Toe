@@ -4,7 +4,7 @@ var app = express();
 var httpServerLib = require('http');
 var webSocketLib = require('ws');
 
-var httpServer = httpServerLib.createServer().listen(5001);
+var httpServer = httpServerLib.createServer().listen(5002);
 var webSocketServer = new webSocketLib.Server({server: httpServer});
 
 webSocketServer.on('connection', function (clientSocket) {
