@@ -17,8 +17,13 @@
 - (void)viewDidLoad {
     
     self.title=@"PolArik Tac Toe";
-
+    self.view.backgroundColor=[UIColor whiteColor];
     [super viewDidLoad];
+    
+    FRPlayField *playFiled = [[FRPlayField alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height)];
+
+    [self.view addSubview:playFiled];
+    
     // Do any additional setup after loading the view.
 }
 
@@ -26,6 +31,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 
 

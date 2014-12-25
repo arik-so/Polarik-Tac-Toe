@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		519F8B2B1A4C562E006F4056 /* FRPlayField.m in Sources */ = {isa = PBXBuildFile; fileRef = 519F8B2A1A4C562E006F4056 /* FRPlayField.m */; };
+		519F8B2D1A4C57EA006F4056 /* Kreuz.png in Resources */ = {isa = PBXBuildFile; fileRef = 519F8B2C1A4C57EA006F4056 /* Kreuz.png */; };
 		51A26C0D1A4C4B5600A58A3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A26C0C1A4C4B5600A58A3A /* main.m */; };
 		51A26C101A4C4B5600A58A3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A26C0F1A4C4B5600A58A3A /* AppDelegate.m */; };
 		51A26C181A4C4B5600A58A3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A26C171A4C4B5600A58A3A /* Images.xcassets */; };
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		519F8B291A4C562E006F4056 /* FRPlayField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPlayField.h; sourceTree = "<group>"; };
+		519F8B2A1A4C562E006F4056 /* FRPlayField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPlayField.m; sourceTree = "<group>"; };
+		519F8B2C1A4C57EA006F4056 /* Kreuz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kreuz.png; sourceTree = "<group>"; };
 		51A26C071A4C4B5600A58A3A /* PolArik Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PolArik Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A26C0B1A4C4B5600A58A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51A26C0C1A4C4B5600A58A3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,10 +84,13 @@
 		51A26C091A4C4B5600A58A3A /* PolArik Tac Toe */ = {
 			isa = PBXGroup;
 			children = (
+				519F8B2C1A4C57EA006F4056 /* Kreuz.png */,
 				51A26C0E1A4C4B5600A58A3A /* AppDelegate.h */,
 				51A26C0F1A4C4B5600A58A3A /* AppDelegate.m */,
 				51A26C301A4C4B8500A58A3A /* MainViewController.h */,
 				51A26C311A4C4B8500A58A3A /* MainViewController.m */,
+				519F8B291A4C562E006F4056 /* FRPlayField.h */,
+				519F8B2A1A4C562E006F4056 /* FRPlayField.m */,
 				51A26C171A4C4B5600A58A3A /* Images.xcassets */,
 				51A26C191A4C4B5600A58A3A /* LaunchScreen.xib */,
 				51A26C0A1A4C4B5600A58A3A /* Supporting Files */,
@@ -198,6 +206,7 @@
 			files = (
 				51A26C1B1A4C4B5600A58A3A /* LaunchScreen.xib in Resources */,
 				51A26C181A4C4B5600A58A3A /* Images.xcassets in Resources */,
+				519F8B2D1A4C57EA006F4056 /* Kreuz.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +226,7 @@
 			files = (
 				51A26C101A4C4B5600A58A3A /* AppDelegate.m in Sources */,
 				51A26C321A4C4B8500A58A3A /* MainViewController.m in Sources */,
+				519F8B2B1A4C562E006F4056 /* FRPlayField.m in Sources */,
 				51A26C0D1A4C4B5600A58A3A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +410,7 @@
 				51A26C2C1A4C4B5600A58A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51A26C2D1A4C4B5600A58A3A /* Build configuration list for PBXNativeTarget "PolArik Tac ToeTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +419,7 @@
 				51A26C2F1A4C4B5600A58A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

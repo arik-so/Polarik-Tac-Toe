@@ -21,17 +21,17 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window makeKeyAndVisible];
     
-    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:1 green:1 blue:1 alpha:1]];
+//    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:1 green:1 blue:1 alpha:1]];
     
     
     MainViewController *firstView = [[MainViewController alloc] init];
     
     UINavigationController *navigationController= [[UINavigationController alloc] initWithRootViewController:firstView];
-    navigationController.navigationBar.barTintColor = [UIColor colorWithRed:70/255.0 green:129/255.0 blue:192/255.0 alpha:1.0];
-    [navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor]}];
+//    navigationController.navigationBar.barTintColor = [UIColor colorWithRed:70/255.0 green:129/255.0 blue:192/255.0 alpha:1.0];
+//    [navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor]}];
     
     
-    navigationController.navigationBar.translucent=NO;
+//    navigationController.navigationBar.translucent=NO;
     
     self.window.rootViewController = navigationController;
     

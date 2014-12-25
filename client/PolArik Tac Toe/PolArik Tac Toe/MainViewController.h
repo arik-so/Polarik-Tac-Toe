@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FRPlayField.h"
 
 
 @interface MainViewController : UIViewController
