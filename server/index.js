@@ -1,10 +1,12 @@
-var express = require('express');
-var app = express();
+// var express = require('express');
+// var app = express();
 
 var httpServerLib = require('http');
 var webSocketLib = require('ws');
 
-var httpServer = httpServerLib.createServer().listen(5002);
+const port = process.env.PORT || 5000;
+
+var httpServer = httpServerLib.createServer().listen(port);
 var webSocketServer = new webSocketLib.Server({server: httpServer});
 
 webSocketServer.on('connection', function (clientSocket) {
@@ -20,7 +22,7 @@ webSocketServer.on('connection', function (clientSocket) {
 });
 
 
-app.set('port', (process.env.PORT || 5000));
+/*app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (request, response) {
@@ -29,4 +31,4 @@ app.get('/', function (request, response) {
 
 app.listen(app.get('port'), function () {
     console.log("Node app is running at localhost:" + app.get('port'));
-});
+});*/
